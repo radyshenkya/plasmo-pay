@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "plasmopay",
+  "version": "${version}",
+  "name": "Plasmo Pay",
+  "description": "Mod for payments on Plasmo RP server.",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/modid/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.radyshenkya.plasmopay.PlasmoPayMod"
+    ],
+    "client": [
+      "net.radyshenkya.plasmopay.PlasmoPayClient"
+    ]
+  },
+  "mixins": [
+    "plasmopay.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

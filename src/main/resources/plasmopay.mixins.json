@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.radyshenkya.plasmopay.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "PlasmoPayMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
