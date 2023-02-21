@@ -1,9 +1,36 @@
-# Fabric Example Mod
+# Plasmo Pay Mod
+**Plasmo Pay** - мод для *Minecraft [Fabric](https://fabricmc.net/) 1.19.2*, который добавляет возможность переводить алмазы с карт [Plasmo RP](https://rp.plo.su/) не заходя на сайт.
 
-## Setup
+# Использование
+## Создание таблички для перевода
+Для использования мода вам нужно установить на сервере **табличку** с такими строками:
+1. PlasmoPay
+2. EB-0000
+3. 1
+4. Comment
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+Где:
+* `PlasmoPay` - эта строка всегда должна быть именно такой. Это как триггер для мода
+* `EB-0000` - карта, на которую будет произведен перевод.
+* `1` - кол-во алмазов, которое будет переведено
+* `Comment` - комментарий перевода
 
-## License
+Пример:
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+![2023-02-21_12 35 09](https://user-images.githubusercontent.com/52829258/220256624-33fefb6c-d462-4070-83d7-6b38aa7576e3.png)
+
+## Использование таблички для перевода
+Для использования этой таблички достаточно кликнуть по ней **ПКМ**.
+
+После этого откроется примерно вот такое меню:
+![2023-02-21_12 37 41](https://user-images.githubusercontent.com/52829258/220256952-edad8098-5033-47b1-8426-d8b701aa5b01.png)
+
+Здесь надо сначала нажать на кнопку `Установить токен` *[Инструкция по тому, как достать токен](https://github.com/radyshenkya/plasmo-pay/blob/main/TOKEN.md)*. Это нужно сделать всего 1 раз. После этого он будет сохранен.
+
+Так же здесь нужно установить поле `С какой карты`. Она должна быть в формате `EB-0000`. Последняя использованная карта сохраняется.
+
+После того, как все данные заполнены, нужно нажать на кнопку `Перевести`. Если все будет успешно, вам должно вывестить сообщение о том, что все хорошо:
+![image](https://user-images.githubusercontent.com/52829258/220258250-0bec7944-1161-4dcc-8b8d-cb19fa8797a1.png)
+
+После этого можно проверить сайт плазмы, там должен появиться новый перевод:
+![image](https://user-images.githubusercontent.com/52829258/220258391-cad709e2-f477-4a1a-877c-1a0527762070.png)
