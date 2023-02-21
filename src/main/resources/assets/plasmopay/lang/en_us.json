@@ -14,5 +14,7 @@
     "gui.plasmopay.text.set_token_prompt_placeholder": "Your PRP token",
     "gui.plasmopay.text.error": "Error: %s",
     "gui.plasmopay.text.successful_transfer": "Successfully transfered from \"%s\" to \"%s\" %d diamonds",
-    "gui.plasmopay.text.error_amount_must_be_integer": "Field \"Amount\" must be an integer number"
+    "gui.plasmopay.text.error_amount_must_be_integer": "Field \"Amount\" must be an integer number",
+    "category.plasmopay.plasmopay": "Plasmo Pay buttons",
+    "key.plasmopay.open_transfer_gui": "Open transfer screen"
 }

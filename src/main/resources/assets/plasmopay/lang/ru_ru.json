@@ -14,5 +14,7 @@
     "gui.plasmopay.text.set_token_prompt_placeholder": "Ваш PRP токен",
     "gui.plasmopay.text.error": "Ошибка: %s",
     "gui.plasmopay.text.successful_transfer": "Успешный перевод с \"%s\" на \"%s\" на сумму %d алмазов",
-    "gui.plasmopay.text.error_amount_must_be_integer": "Поле \"Сумма\" должно содержать в себе только цифры"
+    "gui.plasmopay.text.error_amount_must_be_integer": "Поле \"Сумма\" должно содержать в себе только цифры",
+    "category.plasmopay.plasmopay": "Plasmo Pay кнопки",
+    "key.plasmopay.open_transfer_gui": "Открыть окно перевода"
 }
