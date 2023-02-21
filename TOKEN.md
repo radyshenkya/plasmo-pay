@@ -5,7 +5,7 @@
 После этого нужно нажать `F12`.
 У вас откроется панель с инструментами разработчика.
 
-Нужно будет перейти на вкладку `Storage` (для Firefox) / `Application` (для Chromium-based)ю
+Нужно будет перейти на вкладку `Storage` (для Firefox) / `Application` (для Chromium-based)
 Здесь нужно нажать на вкладку `Cookies`, на сайт `https://rp.plo.su`.
 Отсюда нужно достать значение поля `rp_token`:
 ![untitled](https://user-images.githubusercontent.com/52829258/220259633-e330f303-32a7-4ff7-bda0-2e44afcb2ea0.png)
