@@ -10,6 +10,6 @@ public class PlasmoPayMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Hello Fabric world!");
+        LOGGER.info("Plasmo Pay initialized");
     }
 }

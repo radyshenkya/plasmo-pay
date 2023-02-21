@@ -1,6 +1,5 @@
 package net.radyshenkya.plasmopay.mixin;
 
-import net.radyshenkya.plasmopay.PlasmoPayMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +10,5 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class PlasmoPayMixin {
     @Inject(at = @At("HEAD"), method = "init()V")
     private void init(CallbackInfo info) {
-        PlasmoPayMod.LOGGER.info("This line is printed by an example mod mixin!");
     }
 }

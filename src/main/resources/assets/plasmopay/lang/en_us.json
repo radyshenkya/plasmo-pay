@@ -1,0 +1,18 @@
+{
+    "gui.plasmopay.text.transfer": "Transfer",
+    "gui.plasmopay.text.bank_card": "Plasmo RP Bank card number: §c%s§r",
+    "gui.plasmopay.text.amount": "Diamonds amount: §b%d§r",
+    "gui.plasmopay.text.comment": "Transfer comment: §6%s§r",
+    "gui.plasmopay.button.transfer": "Transfer",
+    "gui.plasmopay.button.ok": "Ok",
+    "gui.plasmopay.button.set_token": "Set Plasmo RP token",
+    "gui.plasmopay.placeholder.from_card": "From",
+    "gui.plasmopay.placeholder.to_card": "To",
+    "gui.plasmopay.placeholder.amount": "Amount",
+    "gui.plasmopay.placeholder.message": "Message",
+    "gui.plasmopay.text.set_token_prompt_name": "Set Plasmo RP token",
+    "gui.plasmopay.text.set_token_prompt_placeholder": "Your PRP token",
+    "gui.plasmopay.text.error": "Error: %s",
+    "gui.plasmopay.text.successful_transfer": "Successfully transfered from \"%s\" to \"%s\" %d diamonds",
+    "gui.plasmopay.text.error_amount_must_be_integer": "Field \"Amount\" must be an integer number"
+}

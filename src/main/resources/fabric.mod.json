@@ -8,8 +8,8 @@
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/radyshenkya/plasmo-pay",
+    "sources": "https://github.com/radyshenkya/plasmo-pay"
   },
   "license": "MIT License",
   "icon": "assets/modid/icon.png",
