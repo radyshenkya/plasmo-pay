@@ -48,6 +48,11 @@ processResources {
 tasks.withType(JavaCompile).configureEach {
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17
+
+	// for annotation processor
+	// configure(options) {
+	// 	options.generatedSourceOutputDirectory
+	// }
 }
 
 java {
@@ -79,3 +84,25 @@ publishing {
 		// retrieving dependencies.
 	}
 }
+
+// sourceSets {
+// 	main {
+//         java {
+//             srcDir 'src/main/java'
+//         }
+//     }
+
+// 	generated {
+// 		java {
+// 			srcDir 'build/generated/sources/annotationProcessor/java/main/'
+// 		}
+// 	}
+// }
+
+
+// // For annotationProcessor generation
+// apply plugin: 'java'
+
+// compileJava {
+// 	options.compilerArgs
+// }

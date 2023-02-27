@@ -14,8 +14,8 @@ import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.ActionResult;
-import net.radyshenkya.plasmopay.gui.Payment.PaymentGui;
 import net.radyshenkya.plasmopay.gui.Payment.PaymentScreen;
+import net.radyshenkya.plasmopay.PlasmoPayConfig;
 
 public class PlasmoPayClient implements ClientModInitializer {
     public static final PlasmoPayConfig config = PlasmoPayConfig.createAndLoad();
@@ -84,6 +84,7 @@ public class PlasmoPayClient implements ClientModInitializer {
 
     private void openTransferGui(String cardNumber, int amount, String comment) {
         MinecraftClient.getInstance()
-                .setScreen(new PaymentScreen(new PaymentGui(cardNumber, amount, comment)));
+                .setScreen(
+                        new PaymentScreen(cardNumber, amount, comment));
     }
 }
