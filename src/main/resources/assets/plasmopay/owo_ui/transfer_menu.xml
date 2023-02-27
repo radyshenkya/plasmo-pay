@@ -1,0 +1,140 @@
+<owo-ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/wisp-forest/owo-lib/1.19/owo-ui.xsd">
+    <components>
+        <flow-layout direction="vertical">
+            <children>
+                <flow-layout direction="vertical">
+                    <children>
+                        <label>
+                            <text translate="true">gui.plasmopay.text.transfer</text>
+                        </label>
+
+                        <!-- <margins>
+                            <top>
+                                5
+                            </top>
+                        </margins>
+                        <sizing>
+                            <horizontal method="fill">
+                                100
+                            </horizontal>
+                        </sizing> -->
+
+                        <text-box id="to-textbox">
+                            <margins>
+                                <top>
+                                    10
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <allow-overflow>true</allow-overflow>
+                            <tooltip-text translate="true">gui.plasmopay.placeholder.to_card</tooltip-text>
+                        </text-box>
+
+                        <text-box id="amount-textbox">
+                            <margins>
+                                <top>
+                                    3
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <allow-overflow>true</allow-overflow>
+                            <tooltip-text translate="true">gui.plasmopay.placeholder.amount</tooltip-text>
+                        </text-box>
+
+                        <text-box id="message-textbox">
+                            <allow-overflow>true</allow-overflow>
+                            <margins>
+                                <top>
+                                    3
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <tooltip-text translate="true">gui.plasmopay.placeholder.message</tooltip-text>
+                        </text-box>
+
+                        <text-box id="from-textbox">
+                            <margins>
+                                <top>
+                                    3
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <max-length>128</max-length>
+                            <tooltip-text translate="true">gui.plasmopay.placeholder.from_card</tooltip-text>
+                        </text-box>
+
+                        <button id="transfer-button">
+                            <margins>
+                                <top>
+                                    5
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <text translate="true">gui.plasmopay.button.transfer</text>
+                        </button>
+
+                        <button id="set-token-button">
+                            <margins>
+                                <top>
+                                    5
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <text translate="true">gui.plasmopay.button.set_token</text>
+                        </button>
+                    </children>
+
+                    <surface>
+                        <panel dark="true" />
+                    </surface>
+
+                    <sizing>
+                        <horizontal method="fill">
+                            25
+                        </horizontal>
+                    </sizing>
+
+                    <padding>
+                        <all>15</all>
+                    </padding>
+
+
+                    <vertical-alignment>center</vertical-alignment>
+                    <horizontal-alignment>center</horizontal-alignment>
+                </flow-layout>
+            </children>
+
+            <vertical-alignment>center</vertical-alignment>
+            <horizontal-alignment>center</horizontal-alignment>
+
+            <surface>
+                <vanilla-translucent />
+            </surface>
+        </flow-layout>
+    </components>
+</owo-ui>

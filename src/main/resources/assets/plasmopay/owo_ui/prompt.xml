@@ -1,0 +1,114 @@
+<owo-ui xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/wisp-forest/owo-lib/1.19/owo-ui.xsd">
+    <components>
+        <flow-layout direction="vertical">
+            <children>
+                <flow-layout direction="vertical">
+                    <children>
+                        <label id="message-name">
+                            <text>PROMPT NAME</text>
+                        </label>
+
+                        <text-box id="prompt-text">
+                            <allow-overflow>true</allow-overflow>
+                            <tooltip-text>PROMPT TOOLTIP</tooltip-text>
+                            <margins>
+                                <top>
+                                    5
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                            <max-length>400</max-length>
+                        </text-box>
+
+                        <!-- <margins>
+                            <top>
+                                5
+                            </top>
+                        </margins>
+                        <sizing>
+                            <horizontal method="fill">
+                                100
+                            </horizontal>
+                        </sizing> -->
+
+                        <!-- <label id="message-text">
+                            <color>gray</color>
+                            <text>MESSAGE CONTENTMESSAGE CONTENTMESSAGE CONTENTMESSAGE CONTENTMESSAGE CONTENTMESSAGE
+                        CONTENTMESSAGE CONTENTMESSAGE CONTENTMESSAGE CONTENT</text>
+                            <margins>
+                                <top>
+                                    5
+                                </top>
+                            </margins>
+                            <sizing>
+                                <horizontal method="fill">
+                                    100
+                                </horizontal>
+                            </sizing>
+                        </label> -->
+
+                        <flow-layout direction="horizontal">
+                            <children>
+                                <button id="ok-button">
+                                    <margins>
+                                        <top>
+                                            5
+                                        </top>
+                                    </margins>
+                                    <sizing>
+                                        <horizontal method="fill">
+                                            50
+                                        </horizontal>
+                                    </sizing>
+                                    <text translate="true">gui.plasmopay.button.ok</text>
+                                </button>
+
+                                <button id="cancel-button">
+                                    <margins>
+                                        <top>
+                                            5
+                                        </top>
+                                    </margins>
+                                    <sizing>
+                                        <horizontal method="fill">
+                                            50
+                                        </horizontal>
+                                    </sizing>
+                                    <text translate="true">gui.plasmopay.button.cancel</text>
+                                </button>
+                            </children>
+                        </flow-layout>
+                    </children>
+
+                    <surface>
+                        <panel dark="true" />
+                    </surface>
+
+                    <sizing>
+                        <horizontal method="fill">80</horizontal>
+                    </sizing>
+
+                    <padding>
+                        <all>15</all>
+                    </padding>
+
+
+                    <vertical-alignment>center</vertical-alignment>
+                    <horizontal-alignment>center</horizontal-alignment>
+                </flow-layout>
+            </children>
+
+            <vertical-alignment>center</vertical-alignment>
+            <horizontal-alignment>center</horizontal-alignment>
+
+            <surface>
+                <vanilla-translucent />
+            </surface>
+        </flow-layout>
+    </components>
+</owo-ui>

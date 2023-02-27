@@ -42,4 +42,8 @@ public class Utils {
 
         return texts;
     }
+
+    public static String clearBankNumber(String bankNumber) {
+        return "EB-" + bankNumber.replaceAll("\\D", "");
+    }
 }
