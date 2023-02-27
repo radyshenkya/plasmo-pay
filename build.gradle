@@ -11,10 +11,6 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-    maven {
-        name = "CottonMC"
-        url = "https://server.bbkr.space/artifactory/libs-release"
-    }
 	maven { url 'https://maven.wispforest.io' }
 }
 
@@ -31,8 +27,6 @@ dependencies {
 	// These are included in the Fabric API production distribution and allow you to update your mod to the latest modules at a later more convenient time.
 
 	// modImplementation "net.fabricmc.fabric-api:fabric-api-deprecated:${project.fabric_version}"
-
-	modImplementation include("io.github.cottonmc:LibGui:${project.libgui_version}")
 	annotationProcessor modImplementation("io.wispforest:owo-lib:${project.owo_version}")
 	include "io.wispforest:owo-lib:${project.owo_version}"
 }
