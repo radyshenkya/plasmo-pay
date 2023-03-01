@@ -8,9 +8,11 @@
 Нужно будет перейти на вкладку **Storage** (для Firefox) / **Application** (для Chromium-based)
 Здесь нужно нажать на вкладку **Cookies**, на сайт *https://rp.plo.su*.
 Отсюда нужно скопировать значение поля `rp_token`:
+
 ![untitled](https://user-images.githubusercontent.com/52829258/220259633-e330f303-32a7-4ff7-bda0-2e44afcb2ea0.png)
 
 **P.S: Никому не давайте ваш rp_token. Он используется для полного управления вашим аккаунтом. Если его кто-то украдет - он получит доступ ко всему аккаунту плазмы.**
 
 После этого, можно перейти в майнкрафт, выделить поле для токена и нажать **Ctrl+V**:
-![image](https://user-images.githubusercontent.com/52829258/220260430-b3e28827-6d53-41c0-b0ba-b47b0cecb500.png)
+
+![image](https://user-images.githubusercontent.com/52829258/222186174-c13f1a06-fc95-47d5-aec3-813e3f904546.png)
